@@ -1,0 +1,62 @@
+Day 1 9th April 2021
+
+=========================================================================================================
+
+
+				 User ==> select 3 sectors of interest 
+				/ |  \
+			  /   |   Sports ==> Which sport ==> follow games 
+	   finance  Politics
+	   	/			\
+	   /			 \ 
+Financial 	   		  What event?
+apr-mar	   			  What country?
+	|   				|
+	|
+	v  				  	|
+Budget	   			make recommendations according to what's trending on twitter
+    |
+    |
+    v
+make recommendations according to time line
+make recommendation according to an trending industry
+
+Initial work: 
+
+User ==> select 3 sectors of interest 
+				/ |  \
+			  /   |   Sports ==> Which sport ==> follow games 
+
+
+===========================================Tech Stack and Skills=========================================
+
+Tech Stack: Python, R, SQL ==> for web app: HTML, CSS, Python/JavaScript in backend/ Flask
+Skills Reqd: Time Series, Machine Learning, Deep Learning
+
+=========================================================================================================
+
+==============================================Flow Chart=================================================
+
+
+											Start With Python ---> max 1 week --> Deadline: 16 Apr 2021 https://www.youtube.com/watch?v=rfscVS0vtbw
+													|
+													|
+													|
+											Machine Learning ---> Max 2 weeks -> Coursera, Stanford Andrew NG --> Deadline: 20 Apr 2021
+											 		|
+											 		|
+											 		|
+											Deep learning Specialization ---> Max 3 weeks --> Coursera, Deeplearning.ai --> After Machine Learning, Depends
+
+===========================================================================================================	
+
+What Neel Knows?     |  What Dhara Knows?
+Python				 |	R 
+SQL					 |  Stats
+HTML/CSS			 |  
+Time Series			 |
+ML(Ongoing)			 |
+
+=============================================================================================================  					 
+					 
+					
