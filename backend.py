@@ -1,20 +1,22 @@
-from flask import Flask, render_template
-from flask import request
+from flask import Flask, render_template, request
+# from flask import request
 app = Flask(__name__)
+@app.route("/")
+def home():
+    return render_template("base.html")
 
-@app.route('/WebPage.html/', methods=['post', 'get'])
-def WebPage():
-    message = ''
-    if request.method == 'POST':
-        Name = request.form.get('Name')
-        LastName = request.form.get('LastName')
-        SearchNews = request.form.get('Enter your Name')
+@app.route('/', methods =["GET", "POST"])
+def login():
+    if request.method == "POST":
+        Name = request.form['fname']
+        # LastName = request.form.get('lname')
+        SearchNews = request.form.get('News')
 
-        message = "You have searched for "+SearchNews
-        if SearchNews == '' :
-            return (render_template('base.html',message = "Nothing"))
-
-        return(render_template('WebPage.html', message = message))
+        message = "{} have searched for ".format(Name) + SearchNews
+        # if SearchNews == '':
+        #     return (render_template('base.html',message = "Nothing"))
+        return message
+    return render_template("base.html")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
